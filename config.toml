@@ -17,11 +17,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     weight = 3
     url = "/"
 
-[[menu.main]]
-    name = "GitHub"
-    weight = 4
-    url = "https://github.com/onweru/compose/"
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -40,9 +35,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 # Everything below this are Site Params
 
 [params]
-copyright = "Weru"
-searchPlaceholder = "Search the docs ..."
-repo = "https://github.com/onweru/compose"
+  copyright = "Weru"
+  searchPlaceholder = "Search the docs ..."
+  repo = "https://github.com/onweru/compose"
 
-time_format_blog = "Monday, January 02, 2006"
-time_format_default = "January 2, 2006"
+  time_format_blog = "Monday, January 02, 2006"
+  time_format_default = "January 2, 2006"
+
+  [params.source]
+    name = "GitHub"
+    icon = "github.svg"
+    url = "https://github.com/onweru/compose/"
