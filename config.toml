@@ -19,7 +19,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [[menu.main]]
     name = "GitHub"
-    icon = "github.svg"
     weight = 4
     url = "https://github.com/onweru/compose/"
 
