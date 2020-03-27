@@ -24,7 +24,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     lineNos = true
     lineNumbersInTable = true
     noClasses = false
-    style = "monokai"
     tabWidth = 2
 
 # Everything below this are Site Params
